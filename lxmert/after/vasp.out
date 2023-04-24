@@ -1,0 +1,34 @@
+Load 1075062 data from split(s) train,valid.
+Start to load Faster-RCNN detected objects from data/vg_gqa_imgfeat/vg_gqa_obj36.tsv
+Loaded 148854 images in file data/vg_gqa_imgfeat/vg_gqa_obj36.tsv in 595 seconds.
+Use 1075062 data in torch dataset
+
+Load 12578 data from split(s) testdev.
+Start to load Faster-RCNN detected objects from data/vg_gqa_imgfeat/gqa_testdev_obj36.tsv
+Loaded 398 images in file data/vg_gqa_imgfeat/gqa_testdev_obj36.tsv in 1 seconds.
+Use 12578 data in torch dataset
+
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+Load QA pre-trained LXMERT from snap/pretrained/model 
+Loaded 1736 answers from LXRTQA pre-training and 106 not
+
+Total Iters: 134380
+Splits in Train data: ['train', 'valid']
+Splits in Valid data: ['testdev']
+Valid Oracle: 99.98
+
+Epoch 0: Train 78.08
+Epoch 0: Valid 59.69
+Epoch 0: Best 59.69
+
+Epoch 1: Train 86.41
+Epoch 1: Valid 60.00
+Epoch 1: Best 60.00
+
+Epoch 2: Train 90.11
+Epoch 2: Valid 59.85
+Epoch 2: Best 60.00
+
+Epoch 3: Train 92.42
+Epoch 3: Valid 59.50
+Epoch 3: Best 60.00

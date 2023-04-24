@@ -1,0 +1,14 @@
+Load 943000 data from split(s) train.
+Start to load Faster-RCNN detected objects from data/vg_gqa_imgfeat/vg_gqa_obj36.tsv
+Loaded 512 images in file data/vg_gqa_imgfeat/vg_gqa_obj36.tsv in 2 seconds.
+Use 4003 data in torch dataset
+
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+Total Iters: 30
+Load model from snap/gqa/gqa_lxr955/BEST
+Load 12578 data from split(s) testdev.
+Start to load Faster-RCNN detected objects from data/vg_gqa_imgfeat/gqa_testdev_obj36.tsv
+Loaded 398 images in file data/vg_gqa_imgfeat/gqa_testdev_obj36.tsv in 1 seconds.
+Use 12578 data in torch dataset
+
+0.6000159007791381
